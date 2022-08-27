@@ -40,3 +40,15 @@ Create a function nthTerm(uint n, uint a, uint b, uint c) where n is the nth ter
 
 For Example - If n=5 a=1 b=2 c=3 then nthTerm() must return 11 as S(1) = 1 S(2) = 2
 S(3) = 3 S(4) = S(3) + S(2) + S(1) = 1+2+3 = 6 S(5) = S(4) + S(3) + S(2) = 6 + 3 + 2 = 11
+
+#Class Tasks
+
+Prime Number
+Task
+
+A prime number is a whole number greater than 1. It has exactly two factors, that is, 1 and the number itself.
+Create a function prime(uint n) . This prime() will check whether n is a prime number or not.
+If n is a prime number then prime() returns 1 and n is not prime then prime() must return 0.
+For Example - If n=103 then prime() must return 1 as 103 is a prime number. If n=200 then prime() must return 0 as 200 is not a prime number.
+
+Note - Function will be public.
