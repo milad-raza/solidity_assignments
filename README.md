@@ -41,7 +41,7 @@ Create a function nthTerm(uint n, uint a, uint b, uint c) where n is the nth ter
 For Example - If n=5 a=1 b=2 c=3 then nthTerm() must return 11 as S(1) = 1 S(2) = 2
 S(3) = 3 S(4) = S(3) + S(2) + S(1) = 1+2+3 = 6 S(5) = S(4) + S(3) + S(2) = 6 + 3 + 2 = 11
 
-#Class Tasks
+# Class Tasks
 
 Prime Number
 Task
