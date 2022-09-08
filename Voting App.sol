@@ -45,6 +45,7 @@ contract VotingApp{
     }
 
     function getVotes() public view returns(vote[] memory){
+        require(owner != msg.sender, "You don't have right's to check votes");
         return votes;
     }
 }
